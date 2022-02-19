@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <title>Desafio 02</title>
+</head>
+<body class="body">
+  <form class="form">
+    <h3>Olá, para login, preencha com o seu nome e senha!!</h3>
+    Nome:
+    <input type="text" name="name" id="name" onkeyup="nameValidation()">
+    <div id="invalidName"></div>
+    <br>
+    Senha:
+    <input type="password" name="password" id="password" onkeyup="passwordValidation()">
+    <br>
+    <button type="button">Login</button>
+    <div id="passwordType"></div>
+    <div id="input"></div>
+    <div id="output"></div>
+  </form>
+  <script src="desafio02.js"></script>
+</body>
+</html>
